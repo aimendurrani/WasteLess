@@ -53,25 +53,6 @@ The Food Waste Reduction Platform is designed to minimize food waste by enabling
    - Place the project folder in the `htdocs` directory of MAMP/XAMPP.
    - Open your web browser and navigate to `http://localhost/food-waste-reduction`.
 
-**File Structure**
-
-```
-food-waste-reduction/
-├── database/
-│   └── food_waste_db.sql
-├── css/
-│   └── styles.css
-├── js/
-│   └── scripts.js
-├── checkout.php
-├── db.php
-├── display.php
-├── index.php
-├── login.php
-├── register.php
-└── README.md
-```
-
 **Usage**
 
 1. **Register/Login:**
