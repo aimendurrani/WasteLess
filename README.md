@@ -4,21 +4,22 @@
 
 The Food Waste Reduction Platform is designed to minimize food waste by enabling users to donate and request food. This platform is built using PHP for the backend and HTML, CSS, and JavaScript for the frontend. It leverages XAMPP server and PHPMyAdmin for database management.
 
-**Features**
+## Features
 
 - **User Registration and Login:** Secure user authentication system.
 - **Food Donation and Request:** Users can donate or request food items.
 - **Dynamic Menu Display:** The menu updates based on the donations and requests.
 - **Database Management:** Efficient handling of food items using MySQL.
 
-**Prerequisites**
+## Prerequisites
 
 - MAMP/XAMPP server
 - PHP 7.4+
 - MySQL
 - PHPMyAdmin
 
-**Installation**
+
+## Installation
 
 1. **Clone the repository:**
 
@@ -52,7 +53,8 @@ The Food Waste Reduction Platform is designed to minimize food waste by enabling
    - Place the project folder in the `htdocs` directory of MAMP/XAMPP.
    - Open your web browser and navigate to `http://localhost/food-waste-reduction`.
 
-**Usage**
+
+## Usage
 
 1. **Register/Login:**
 
@@ -75,6 +77,7 @@ The Food Waste Reduction Platform is designed to minimize food waste by enabling
 
    - The menu page displays all available food items, updating dynamically based on donations and requests.
 
-**Contact**
+
+## Contact
 
 For any questions or support, please contact [aimendurraniii@gmail.com](aimendurraniii@gmail.com).
