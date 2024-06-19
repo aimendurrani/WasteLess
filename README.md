@@ -1,4 +1,4 @@
-# Food Waste Reduction Platform
+## Food Waste Reduction Platform
 
 **Introduction**
 
