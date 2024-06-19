@@ -1,0 +1,176 @@
+
+body {
+    background: url(backgrounds/background1.png);
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    margin: 0;
+    padding-bottom: auto;
+}
+
+.signup {
+    width: 360px;
+    height: 650px;
+    margin: auto;
+    background: beige;
+    border-radius: 10px;
+}
+
+.login {
+    width: 360px;
+    height: 320px;
+    margin: auto;
+    background: beige;
+    border-radius: 10px;  
+}
+
+.centered-paragraph {
+    margin-bottom: 65%;
+    font-size: 3.0rem;
+    color: #2e8b57;
+}
+
+h1 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+form {
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none; 
+}
+
+input[type="submit"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #ff7200;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    color: white;
+    background-color: rgb(225, 143, 21);
+}
+
+p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    font-family: sans-serif;
+    color: #2e8b57;
+}
+
+.terms {
+    width: 520px;
+    height: 400px;
+    margin: auto;
+    background: beige;
+    border-radius: 10px;
+    overflow-y: scroll;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.terms-content {
+    max-height: 100%;
+}
+
+.controller h1 {
+    text-align: center;
+    font-size: 10px !important;
+}
+
+/* Navbar customization */
+.navbar {
+    background-color: #2e8b57; /* Darker shade of green */
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.navbar-default .navbar-brand {
+    color: #ffffff; /* White color for the brand name */
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #ffffff; /* White color for the brand name when hovered */
+}
+
+.navbar-default .navbar-nav {
+    margin: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff; /* Navbar link color */
+    background-color: transparent; /* Remove default background color */
+    transition: color 0.3s ease, border-bottom 0.3s ease; /* Smooth transition for color and border */
+    padding: 15px 20px; /* Add padding for better click area */
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #041e0f; /* Link hover color */
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: transparent; /* Remove active background color */
+    color: white;
+    border-bottom: 2px solid #042e0f; /* Add a border to indicate active link */
+}
+
+/* Flexbox for navbar */
+.navbar .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* Add some padding to the sides */
+}
+
+.navbar-header {
+    flex: 1;
+}
+
+.navbar-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+body.home-page {
+    background: url('backgrounds/background1.png') no-repeat center center fixed;
+    background-size: cover;
+}
