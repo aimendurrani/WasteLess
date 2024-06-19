@@ -1,6 +1,6 @@
-## Food Waste Reduction Platform
+# Food Waste Reduction Platform
 
-**Introduction**
+## Introduction
 
 The Food Waste Reduction Platform is designed to minimize food waste by enabling users to donate and request food. This platform is built using PHP for the backend and HTML, CSS, and JavaScript for the frontend. It leverages XAMPP server and PHPMyAdmin for database management.
 
